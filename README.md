@@ -13,7 +13,7 @@ git clone https://github.com/LuminiaBedrock/Luminia-Discord-Bot-public.git
 ```
 2. Navigate to the project directory:
 ```bash
-cd Luminia-Discord-Bot
+cd Luminia-Discord-Bot-public
 ```
 3. Build the JAR file using Gradle:
 ```bash
