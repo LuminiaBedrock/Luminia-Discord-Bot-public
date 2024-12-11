@@ -1,0 +1,148 @@
+# Общие сообщения
+generic-command-error: "При выполнении команды произошла ошибка. Подробности см. в консоли"
+generic-no-permission: "У вас нет разрешения на использование этой команды"
+generic-can-not-interact: "Бот не может взаимодействовать с этим пользователем"
+generic-join-message: "[0] [2] присоединился(-лась) к серверу"
+generic-leave-message: "[0] [2] покинул(-а) сервер"
+
+# Форматтер времени
+time-form-day: "день"
+time-form-days: "дня"
+time-form-many-days: "дней"
+time-form-hour: "час"
+time-form-hours: "часа"
+time-form-many-hours: "часов"
+time-form-minute: "минута"
+time-form-minutes: "минуты"
+time-form-many-minutes: "минут"
+time-form-second: "секунда"
+time-form-seconds: "секунды"
+time-form-many-seconds: "секунд"
+
+# Команды
+
+# Команда Avatar
+command-avatar-description: "Получить аватар сервера или пользователя"
+command-avatar-subcommand-guild-name: "Получить аватар сервера"
+command-avatar-subcommand-user-name: "Получить аватар пользователя"
+command-avatar-option-user-name: "Пользователь"
+command-avatar-message-guild-avatar: "Аватар сервера"
+command-avatar-message-user-avatar: "Аватар пользователя [0]"
+
+# Команда Profile
+command-profile-description: "Информация о пользователе"
+command-profile-option-user-name: "Пользователь"
+command-profile-embed-title: "Информация"
+command-profile-embed-user-name: "Имя: `[0]`"
+command-profile-embed-user-id: "Идентификатор: `[0]`"
+command-profile-embed-user-id-long: "Цифровой идентификатор: `[0]`"
+command-profile-embed-user-online-status: "Онлайн статус: `[0]` [1]"
+
+# Комнада MemberCount
+command-member-count-description: "Количество участников сервера"
+command-member-count-success-title: "Количество участников"
+command-member-count-success-description: "На сервере находится [0] участника(ов)"
+
+# Комнада Members
+command-members-description: "Информация о участниках сервера"
+command-members-success-title: "Участники сервера"
+command-members-success-members-with-role: "Участники c ролью [0]: [1]"
+command-members-success-footer: "Всего участников: [0]"
+
+# Комнада MessageEmbed
+command-embed-description: "Отправить Embed"
+command-embed-subcommand-guild-name: "Аватар сервера"
+command-embed-subcommand-user-name: "Аватар пользователя"
+command-embed-subcommand-none-name: "Без аватара"
+command-embed-option-message-name: "Сообщение"
+command-embed-option-role-name: "Пинг роли"
+command-embed-modal-title-name: "Embed"
+command-embed-modal-input-title-name: "Заголовок"
+command-embed-modal-input-title-placeholder: "Заголовок"
+command-embed-modal-input-description-name: "Описание"
+command-embed-modal-input-description-placeholder: "Описание"
+command-embed-modal-input-color-name: "Цвет (hex)"
+command-embed-modal-input-color-placeholder: "#9f70fd"
+command-embed-modal-input-image-name: "Ссылка на изображение"
+command-embed-modal-input-image-placeholder: "Ссылка"
+command-embed-modal-input-footer-name: "Нижний текст"
+command-embed-modal-input-footer-placeholder: "Нижний текст"
+command-embed-message-success: "Embed отправлен!"
+
+# Комнада Message
+command-message-description: "Отправить сообщение"
+command-message-option-message-name: "Сообщение"
+command-message-option-attachment-name: "Прикрепление"
+command-message-message-success: "Сообщение отправлено!"
+
+# Команда MinecraftStatus
+command-status-description: "Получить Ping-информацию сервера"
+command-status-option-address-name: "Адрес сервера"
+command-status-option-port-name: "Порт сервера"
+command-status-embed-title: "Информация о сервере [0]:[1]"
+command-status-embed-motd: "📝 Motd: `[0]`"
+command-status-embed-player-count: "Количество игроков: [0]/[1]"
+command-status-embed-minecraft-version: "Версия Minecraft: [0] [Версия протокола: [1]]"
+command-status-embed-gamemode: "Режим игры [0]"
+command-status-embed-software: "💻 Программное обеспечение: [0]"
+command-status-embed-additional: "**Дополнительно**"
+command-status-embed-address: "🌐 IP-адрес сервера: [0]"
+command-status-embed-server-offline: "Сервер не вернул ответ"
+command-status-message-no-address-given: "Вы не указали адрес сервера"
+
+# Команда MinecraftServer
+command-server-description: "Майнкрафт сервер"
+command-server-embed-title: "Информация о сервере"
+command-server-embed-server-information: "💻 **Данные сервера**"
+command-server-embed-address: "Адрес сервера: `[0]`"
+command-server-embed-port: "Порт сервера `[0]`"
+command-server-embed-current-information: "📈 **Текущая информация**"
+command-server-embed-player-count: "Онлайн сервера: [0] из [1]"
+command-server-embed-minecraft-version: "Версия Minecraft: [0]"
+command-server-embed-server-offline: "Сервер в данный момент оффлайн"
+command-server-embed-site: "Также не забывайте, что у сервера есть свой сайт: https://luminia.fun"
+
+# Команда Site
+command-site-description: "Сайт сервера"
+command-site-message-success: "🔎 Сайт сервера https://luminia.fun"
+
+command-rcon-description: "Отправить команду через RCON на сервер"
+command-rcon-subcommand-command-name: "Отправить команду"
+command-rcon-subcommand-setrole-name: "Установить роль для доступа к RCON"
+command-rcon-subcommand-setrcon-name: "Установить данные для RCON"
+command-rcon-option-command-name: "Команда"
+command-rcon-option-role-name: "Роль"
+command-rcon-option-address-name: "Адрес"
+command-rcon-option-port-name: "Порт"
+command-rcon-option-password-name: "Пароль"
+command-rcon-message-role-set: "Роль для RCON установлена"
+command-rcon-message-rcon-set: "Данные для RCON установлены"
+command-rcon-message-role-not-found: "Роль для доступа к RCON не найдена"
+command-rcon-message-rcon-not-set: "Данные для RCON не установлены"
+command-rcon-message-server-offline: "Сервер оффлайн"
+command-rcon-message-auth-error: "Ошибка авторизации ([0]). Подробности см. в консоли"
+command-rcon-embed-title: "Ответ сервера"
+command-rcon-embed-response-empty: "Сервер не вернул ответа"
+command-rcon-button-resend: "Отправить повторно"
+
+# Команда Timeout
+command-timeout-description: "Выдать тайм-аут"
+command-timeout-subcommand-add-name: "Выдать тайм-аут"
+command-timeout-subcommand-remove-name: "Снять тайм-аут"
+command-timeout-option-user-name: "Пользователь"
+command-timeout-option-duration-name: "Продолжительность"
+command-timeout-message-invalid-duration: "Продолжительность должна быть в таком формате: 15m (15 минут), 1d (1 день), 1w (1 неделя)"
+command-timeout-message-duration-limit: "Максимальная продолжительность тайм-аута 28 дней"
+command-timeout-message-timeout-added: "Пользователю [0] выдан тайм-аут на [1]"
+command-timeout-message-timeout-removed: "С пользователя [0] снят тайм-аут"
+
+# Команда SetName
+command-setname-description: "Установить имя пользователю"
+command-setname-option-user-name: "Пользователь"
+command-setname-option-name-name: "Имя"
+command-setname-message-changed: "Имя пользователя [0] изменено на [1]"
+
+# Другое
+timeout-embed-title: "Тайм-аут"
+timeout-embed-description-add: "Вам был выдан тайм-аут на **[0]** на сервере **[1]**"
+timeout-embed-description-remove: "Вам был снят тайм-аут на сервере **[0]**"

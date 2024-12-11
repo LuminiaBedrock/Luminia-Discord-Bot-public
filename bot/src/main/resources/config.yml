@@ -1,0 +1,19 @@
+# Available languages: rus (Русский)
+language: "rus"
+
+# Discord settings
+discord:
+  # Bot token
+  token: "your token here"
+
+# MinecraftServer command settings
+minecraft-server-command:
+  address: "luminia.fun"
+  port: "19132"
+  image: "https://cdn.discordapp.com/attachments/1013476536923471892/1192067181601632296/portal.png?ex=662ce193&is=662b9013&hm=c3b956ec9e8b4f250a95190bd4f453b84fb521be92aeec7954e4475a2261a585&"
+
+# Channel with join and leave messages
+welcome-messages-channel:
+  enable-join: true # Enable join messages
+  enable-leave: true # Enable leave messages
+  channel-id: 1013476536923471892 # Channel id
